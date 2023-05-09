@@ -25,8 +25,7 @@
 		</nav>
 	</div>
 	</header>
-	
-	    <div id="unity-container" class="unity-desktop">
+    <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -76,11 +75,11 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Unity.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Unity.data.br",
-        frameworkUrl: buildUrl + "/Unity.framework.js.br",
-        codeUrl: buildUrl + "/Unity.wasm.br",
+        dataUrl: buildUrl + "/Unity.data",
+        frameworkUrl: buildUrl + "/Unity.framework.js",
+        codeUrl: buildUrl + "/Unity.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "MabbCom",
         productName: "DissertationProject",
         productVersion: "1.0.2",
         showBanner: unityShowBanner,
@@ -111,8 +110,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
 
       loadingBar.style.display = "block";
@@ -133,6 +132,5 @@
       };
       document.body.appendChild(script);
     </script>
-	
 </body>
 </html>

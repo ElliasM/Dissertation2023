@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #b3cde0;
+}
+
+header {
+  background-color: #fff; /* Header background color */
+  white-space: nowrap;
+  margin-bottom: 0;
+  margin-top: 0;
+  top:0;
+  position:relative;
+}
+
+h1 {
+	margin:0px;
+    padding:0px;
+	padding-left: 10px;
+	color:#005b96;
+	font-weight: bold;
+	font-size: 300%;
+	float:left;
+	display: block;
+}
+
+h3 {
+	margin:0px;
+    padding:0px;
+	padding-left: 10px;
+	float:left;
+	display:block;
+	white-space: nowrap;
+	word-wrap: break-word;
+	clear:left;
+	color: #011f4b;
+}
+
+.logo{
+	display: inline-block;
+	position: relative;
+	margin:0px;
+    padding:10px;
+	margin-left:auto;
+	float:right;
+}
+
+.navbar {
+	clear:both;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #03396c;
+  height: auto;
+  min-height: 100% ;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+	margin-top: 0;
+	padding-top: 0;
+	
+}
+
+.bigimage {
+	background-image: url("images/bgimage1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: center;
+	background-size: cover;
+	margin: 0;
+    padding: 0;
+}
+
+
+
+.box1 {
+	color: #fff;
+
+
+	width: 30%;
+	min-height: 800px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	  z-index: 10;
+	  margin-left:40;
+
+}
+
+.imagetext1 {
+	
+	font-weight:bold;
+	text-align: center;
+    line-height: 1.34em;
+    font-size: 30px;
+	position:relative;
+	top:200px;
+	left: 10px;
+	
+}
+
+.linkButton {
+	box-shadow: rgb(84, 163, 247) 0px 0px 6px -10px inset;
+	background: linear-gradient(rgb(0, 125, 193) 5%, rgb(0, 97, 167) 100%) rgb(0, 125, 193);
+	border-radius: 15px;
+	border: 2px solid rgb(18, 77, 119);
+	
+	display: inline-block;
+	position:relative;
+	top:300px;
+	left:10px;
+	
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	padding: 10px 40px;
+
+}
+
+.lowerborder {
+	background-color: #03396c;
+	height: 20px;
+	min-height: 100% ;
+	white-space: nowrap;
+	margin-bottom: 0;
+	
+}

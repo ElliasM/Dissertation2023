@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Staying Safe Online</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="TemplateData/favicon.ico">
+</head>
+<body>
+	<header>
+	<div class="topofpage">
+		<h1>Staying Safe Online</h1> <img a src="images/Newcastle-University-Logo.png" alt="Newcastle University Logo" width="240" height= "75" class="logo">
+		<h3>A guide to avoiding online fraud</h3>
+	</div> 
+	<div class="navbar">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="interactive.html">Interactive</a></li>
+				<li><a href="About.html">About</a></li>
+				<li><a href="Media.html">Media</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+	<main>
+		<h2 style="color:#03396c">Made by Ellias Mabbley<br>3rd Year Dissertation Project, Newcastle University<br>Uploaded 10/05/2023</h2>
+	</main>
+</body>
+</html>
